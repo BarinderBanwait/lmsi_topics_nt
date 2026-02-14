@@ -118,11 +118,11 @@
 }
 
 .schedule-table {
-  margin: 0 auto;
+  margin: 0 auto !important;
   border-collapse: separate;
   border-spacing: 0 4px;
-  width: auto;
-  min-width: 60%;
+  width: auto !important;
+  display: table !important;
 }
 
 .schedule-table td {
