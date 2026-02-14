@@ -14,7 +14,7 @@ This is the webpage for the one-day course in number theory at the Lodha Mathema
   <h2 class="session-title">The Congruent Number Problem</h2>
   <span class="session-speaker"><a href="https://barinderbanwait.github.io">Barinder S. Banwait</a></span>
   <p class="session-description">A leisurely stroll through the world of Pythagorean triples, the congruent number problem, and culminating in a basic introduction to elliptic curves.</p>
-  <a href="{{ site.url }}{{ site.baseurl }}/problem_sheets/session1.pdf" class="btn">Problem sheet for Session 1</a>
+  <a href="{{ site.url }}{{ site.baseurl }}/problem_sheets/session1.pdf" class="btn">Problem sheet</a>
 </div>
 
 <div class="session-card session-2">
@@ -22,7 +22,7 @@ This is the webpage for the one-day course in number theory at the Lodha Mathema
   <h2 class="session-title">Solving Polynomial Equations Modulo a Prime</h2>
   <span class="session-speaker"><a href="https://andrewodesky.com/">Andrew O'Desky</a></span>
   <p class="session-description">An understanding of modular arithmetic and polynomials over finite fields, and culminating in connections to transformer interpretability and architecture.</p>
-  <a href="{{ site.url }}{{ site.baseurl }}/problem_sheets/session2.pdf" class="btn">Problem sheet for Session 2</a>
+  <a href="{{ site.url }}{{ site.baseurl }}/problem_sheets/session2.pdf" class="btn">Problem sheet</a>
 </div>
 </div>
 
