@@ -13,7 +13,7 @@ concurrency:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
-  contents: read  # Read access to repository contents
+  contents: write # Write access to push built PDFs
   pages: write    # Write access to GitHub Pages
   id-token: write # Write access to ID tokens
 
@@ -26,6 +26,16 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0 # Fetch all history for all branches and tags
+
+      - name: Compile LaTeX problem sheets
+        uses: xu-cheng/latex-action@v3
+        with:
+          root_file: problem_sheets/session2.tex
+
+      - name: Copy PDF into home_page for Jekyll to serve
+        run: |
+          mkdir -p home_page/problem_sheets
+          cp problem_sheets/session2.pdf home_page/problem_sheets/
 
       - name: Check for `home_page` folder # this is meant to detect a Jekyll-based website
         id: check_home_page

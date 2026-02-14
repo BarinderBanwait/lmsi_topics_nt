@@ -40,4 +40,4 @@ This is the webpage for the one-day course in number theory at the Lodha Mathema
 </table>
 </div>
 
-[Problem sheet for Session 2](https://github.com/BarinderBanwait/lmsi_topics_nt/blob/main/problem_sheets/session2.pdf){: .btn }
+[Problem sheet for Session 2]({{ site.url }}{{ site.baseurl }}/problem_sheets/session2.pdf){: .btn }
