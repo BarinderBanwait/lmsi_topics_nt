@@ -30,7 +30,8 @@ jobs:
       - name: Compile LaTeX problem sheets
         uses: xu-cheng/latex-action@v3
         with:
-          root_file: problem_sheets/session2.tex
+          working_directory: problem_sheets
+          root_file: session2.tex
 
       - name: Copy PDF into home_page for Jekyll to serve
         run: |
