@@ -8,6 +8,7 @@ usemathjax: true
 
 This is the webpage for the one-day course in number theory at the Lodha Mathematical Sciences Institute in Mumbai.
 
+<div class="session-row">
 <div class="session-card session-1">
   <span class="session-label">Session 1</span>
   <h2 class="session-title">The Congruent Number Problem</h2>
@@ -20,6 +21,7 @@ This is the webpage for the one-day course in number theory at the Lodha Mathema
   <h2 class="session-title">Solving Polynomial Equations Modulo a Prime</h2>
   <span class="session-speaker"><a href="https://andrewodesky.com/">Andrew O'Desky</a></span>
   <p class="session-description">An understanding of modular arithmetic and polynomials over finite fields, and culminating in connections to transformer interpretability and architecture.</p>
+</div>
 </div>
 
 <div class="schedule-wrapper">
