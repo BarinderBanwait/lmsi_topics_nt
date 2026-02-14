@@ -21,7 +21,7 @@ This is the webpage for the one-day course in number theory at the Lodha Mathema
   <span class="session-label">Session 2</span>
   <h2 class="session-title">Solving Polynomial Equations Modulo a Prime</h2>
   <span class="session-speaker"><a href="https://andrewodesky.com/">Andrew O'Desky</a></span>
-  <p class="session-description">An understanding of modular arithmetic and polynomials over finite fields, and culminating in connections to transformer interpretability and architecture.</p>
+  <p class="session-description">An introduction to modular arithmetic and polynomials over finite fields.</p>
   <a href="{{ site.url }}{{ site.baseurl }}/problem_sheets/session2.pdf" class="btn">Problem sheet</a>
 </div>
 </div>
