@@ -1,7 +1,14 @@
 \documentclass[12pt]{article}
 \usepackage{amsmath, amsfonts}
 \usepackage[margin=1in]{geometry}
-
+\newcommand{\Mod}[1]{\ (\mathrm{mod}\ #1)}
+\newcommand{\field}[1]{\mathbb{#1}}  % the font for a mathematical field is blackboard
+\newcommand{\Q}{\field{Q}} % the field of the rationals
+\newcommand{\R}{\field{R}} % the field of the reals
+\newcommand{\N}{\field{N}} % the semi-ring of the natural numbers
+\newcommand{\C}{\field{C}} % the field of complex number
+\newcommand{\Z}{\field{Z}} % the ring of integers
+\newcommand{\F}{\field{F}}
 \title{Solving Polynomial Equations Modulo a Prime}
 \author{Dr Andrew O'Desky}
 \date{}
@@ -11,17 +18,59 @@
 
 \begin{enumerate}
 
-\item Let $p$ be a prime number.
+\item Compute the following.
 \begin{enumerate}
-  \item[(a)] Find all solutions to $x^2 \equiv 1 \pmod{p}$.
-  \item[(b)] For which primes $p$ does $x^2 \equiv -1 \pmod{p}$ have a solution?
-  \item[(c)] How many solutions does $x^2 \equiv a \pmod{p}$ have for a given $a \not\equiv 0 \pmod{p}$?
+  \item[(a)] $3^{2027}$ $\Mod{17}$.
+  \item[(b)] $7^{1958}$ $\Mod{23}$.
+  \item[(c)] $4^{691}$ $\Mod{31}$.
 \end{enumerate}
 
-\item Find all solutions to $x^3 + x + 1 \equiv 0 \pmod{5}$.
+\emph{Hint: Use Fermat's Little theorem.}
 
-\item Let $f(x) \in \mathbb{Z}[x]$ be a polynomial of degree $d$. Show that $f(x) \equiv 0 \pmod{p}$ has at most $d$ solutions modulo $p$.
+\item Find the last digit of $7^{100}$.
 
+\item Prove that $n^7 - n$ is divisible by $42$ for any $n$.
+
+\item Solve the following equations for $x$.
+\begin{enumerate}
+  \item[(a)] $5x \equiv 6 \Mod{8}$.
+  \item[(b)] $12x \equiv 5 \Mod{19}$.
+  \item[(c)] $4^{691}$ $\mod{31}$.
 \end{enumerate}
 
+\item Prove that if $x^3 + y^3 = z^3$ has a solution in integers, then one of the numbers must be a multiple of $7$.
+
+\item \begin{enumerate}
+  \item[(a)] Expand $(x+1)^5$ using the binomial theorem.
+  \item[(b)] Prove that for any prime $p$, \[ (x+y)^p \equiv x^p + y^p \Mod{p}.\]
+\end{enumerate}
+
+\item Modern research into Transformers (the architecture behind LLMs) and SAT Solvers involves translating Logic into Algebra, specifically, polynomials over the field $\F_2$.
+
+In $\F_2$, we only have elements $\{0,1\}$.
+
+\begin{itemize}
+  \item False $\to 0$
+  \item True $\to 1$
+  \item AND($x,y$) $\to x\cdot y$ (multiplication)
+  \item NOT(x) $\to 1 + x$.
+\end{itemize}
+
+\item \begin{enumerate}
+  \item[(a)] Construct a polynomial $P(x,y)$ that represents OR($x,y$).
+  \item[(b)] Consider the logic statement: "(x AND y) is True, but (x OR z) is False." Convert this statement into a system of polynomial equations over $\F_2$.
+\end{enumerate}
+
+\item Consider the elliptic curve $E$ defined over the finite field $\mathbb{F}_7$ by the equation:
+\[
+    y^2 \equiv x^3 + 2 \Mod{7}.
+\]
+
+\begin{enumerate}
+    \item \textbf{Find all affine points:} Determine all pairs $(x, y)$ where $x, y \in \{0, 1, \dots, 6\}$ that satisfy the equation.
+    
+    \item \textbf{Total count:} Including the ``point at infinity'' (denoted $\mathcal{O}$), how many points are on this curve in total?
+\end{enumerate}
+
+\end{enumerate}
 \end{document}
