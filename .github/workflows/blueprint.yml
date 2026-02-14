@@ -31,11 +31,14 @@ jobs:
         uses: xu-cheng/latex-action@v3
         with:
           working_directory: problem_sheets
-          root_file: session2.tex
+          root_file: |
+            session1.tex
+            session2.tex
 
-      - name: Copy PDF into home_page for Jekyll to serve
+      - name: Copy PDFs into home_page for Jekyll to serve
         run: |
           mkdir -p home_page/problem_sheets
+          cp problem_sheets/session1.pdf home_page/problem_sheets/
           cp problem_sheets/session2.pdf home_page/problem_sheets/
 
       - name: Check for `home_page` folder # this is meant to detect a Jekyll-based website
