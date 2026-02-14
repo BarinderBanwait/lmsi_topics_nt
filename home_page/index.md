@@ -22,6 +22,8 @@ This is the webpage for the one-day course in number theory at the Lodha Mathema
 | 4:30 PM | Tea break |
 | 5:00–5:45 PM | Q&A and panel discussion |
 
-**Session 1** will be led by Dr. Banwait, and will cover: Pythagorean triples, congruent numbers, a basic introduction to elliptic curves, and the chord-and-tangent process.
+**Session 1** will be led by [Dr. Banwait](https://barinderbanwait.github.io), and will cover: Pythagorean triples, congruent numbers, a basic introduction to elliptic curves, and the chord-and-tangent process.
 
-**Session 2** will be led by Dr. O'Desky, and will cover solving polynomial equations modulo a prime.
+**Session 2** will be led by [Dr. O'Desky](https://andrewodesky.com/), and will cover solving polynomial equations modulo a prime.
+
+[Problem sheet for Session 2]({{ site.github.repository_url }}){: .btn }

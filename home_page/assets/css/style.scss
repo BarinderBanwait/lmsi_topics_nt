@@ -7,3 +7,31 @@
 @import "{{ site.theme }}";
 
 /* Put your rules below this line */
+
+.main-content .btn {
+  display: inline-block;
+  margin-bottom: 1rem;
+  color: #fff;
+  background-color: #1a1a2e;
+  border-color: #1a1a2e;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 0.3rem;
+  padding: 0.75rem 1rem;
+  text-decoration: none;
+  transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+
+  &:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #0f3460;
+    border-color: #0f3460;
+  }
+}
+
+.page-header {
+  background-image: url('../images/banner.svg');
+  background-size: cover;
+  background-position: center;
+  background-color: #1a1a2e;
+}
