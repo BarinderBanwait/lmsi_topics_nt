@@ -9,9 +9,9 @@
 \newcommand{\C}{\field{C}} % the field of complex number
 \newcommand{\Z}{\field{Z}} % the ring of integers
 \newcommand{\F}{\field{F}}
-\title{Solving Polynomial Equations Modulo a Prime}
-\author{Dr Andrew O'Desky}
-\date{}
+\title{Solving polynomial equations modulo a prime}
+%\author{Dr Andrew O'Desky}
+\date{February 15, 2026}
 
 \begin{document}
 \maketitle
@@ -25,7 +25,7 @@
   \item[(c)] $4^{691}$ $\Mod{31}$.
 \end{enumerate}
 
-\emph{Hint: Use Fermat's Little theorem.}
+%\emph{Hint: Use Fermat's Little theorem.}
 
 \item Find the last digit of $7^{100}$.
 
@@ -45,9 +45,9 @@
   \item[(b)] Prove that for any prime $p$, \[ (x+y)^p \equiv x^p + y^p \Mod{p}.\]
 \end{enumerate}
 
-\item Modern research into Transformers (the architecture behind LLMs) and SAT Solvers involves translating Logic into Algebra, specifically, polynomials over the field $\F_2$.
+\item The equation $3x^3 + 4y^3 = 1715$ has solutions in $\Z/m\Z$ for any modulus $m$ but has no integer solutions. Prove there is a solution in $\Z/19\Z$.\footnote{This is a variation on a famous example due to Ernst Selmer, a Norwegian mathematician who lived from 1920 to 2006.} 
 
-In $\F_2$, we only have elements $\{0,1\}$.
+\item Modern research into Transformers (the architecture behind LLMs) and SAT Solvers involves translating Logic into Algebra, specifically, polynomials over the field $\F_2=\{0,1\}$:
 
 \begin{itemize}
   \item False $\to 0$
@@ -56,9 +56,9 @@ In $\F_2$, we only have elements $\{0,1\}$.
   \item NOT(x) $\to 1 + x$.
 \end{itemize}
 
-\item \begin{enumerate}
+\begin{enumerate}
   \item[(a)] Construct a polynomial $P(x,y)$ that represents OR($x,y$).
-  \item[(b)] Consider the logic statement: "(x AND y) is True, but (x OR z) is False." Convert this statement into a system of polynomial equations over $\F_2$.
+  \item[(b)] Consider the logic statement: ``(x AND y) is True, but (x OR z) is False." Convert this statement into a system of polynomial equations over $\F_2$.
 \end{enumerate}
 
 \item Consider the elliptic curve $E$ defined over the finite field $\mathbb{F}_7$ by the equation:
