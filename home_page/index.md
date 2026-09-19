@@ -6,6 +6,12 @@
 usemathjax: true
 ---
 
+<div class="event-note">
+  <p>This workshop took place on Sunday, February 15th, 2026, at the Lodha Mathematical Sciences Institute, Mumbai, India. Thank you to all the students who participated. Special thanks to Vinay Nair for his willingness to make this happen.</p>
+  <a href="https://www.youtube.com/shorts/A0AsWr8YBi4" class="btn">YouTube short</a>
+  <a href="https://www.instagram.com/reel/DU0tVa7Efke/" class="btn">Instagram reel</a>
+</div>
+
 This is the webpage for the one-day course in number theory at the Lodha Mathematical Sciences Institute in Mumbai.
 
 <div class="session-row">
